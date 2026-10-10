@@ -1,0 +1,6 @@
+Condition,Model,Trainable_Params,Total_Params,Learning_Rate,Epochs_To_Converge,Total_Time_Sec,Best_Val_Loss,Best_Val_Acc,Test_Acc,Test_Macro_F1
+B1,ResNet,11181642,11181642,1e-3,2,45.2,1.5097,0.2867,0.36,0.3145
+B2,ResNet,5130,11181642,1e-3,23,181.22,0.2491,0.9133,0.8867,0.8883
+B3,ResNet,8398858,11181642,"layer4:1e-4, fc:1e-3",6,72.0,0.2346,0.9267,0.92,0.9204
+B4_NoAug,ResNet,5130,11181642,1e-3,25,114.99,0.2441,0.92,0.9,0.9009
+B5_EfficientNetB0,EfficientNet,12810,4020358,1e-3,24,180.19,0.3048,0.9,0.8667,0.8658
